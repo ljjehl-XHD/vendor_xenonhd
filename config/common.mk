@@ -106,8 +106,8 @@ PRODUCT_COPY_FILES += \
 include vendor/xenonhd/config/ota.mk
 
 # Fix Google dialer
-PRODUCT_COPY_FILES += \
-    vendor/xenonhd/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+#PRODUCT_COPY_FILES += \
+ #   vendor/xenonhd/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
